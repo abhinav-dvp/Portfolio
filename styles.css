@@ -1,0 +1,107 @@
+.Heading{
+  font-family: 'Allerta Stencil'; font: size 70px; color: rgb(66, 33, 33) ;
+  text-align: center;
+  font-size: 40px;
+}
+.Unitytext{
+  animation-name: fadeInOut, moveLeft300px, bounce;
+  animation-duration: 2.5s, 5s, 1s;
+  animation-iteration-count: 2, 1, 5;
+  font-family:'League Spartan';
+  text-align: center;
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+}
+.unityhead{
+  font-family: 'Courier New', Courier, monospace; color: rgb(0, 0, 0);
+}
+.Step2text{
+  animation-name: fadeInOut, moveLeft300px, bounce;
+  animation-duration: 2.5s, 5s, 1s;
+  animation-iteration-count: 2, 1, 5;
+  font-family:'League Spartan';
+  text-align: center;
+  font-size: 50px;
+  color: rgb(252, 252, 252);
+}
+.step2head{
+  font-family: 'Courier New', Courier, monospace; color: rgb(0,0,0);
+}
+.Step3text{
+  animation-name: fadeInOut, moveLeft300px, bounce;
+  animation-duration: 2.5s, 5s, 1s;
+  animation-iteration-count: 2, 1, 5;
+  font-family:'League Spartan';
+  text-align: center;
+  font-size: 50px;
+  color: rgb(251, 251, 251);
+}
+.step3head{
+  font-family: 'Courier New', Courier, monospace; color: rgb(255, 157, 0);
+}
+.carousel {
+  overflow: hidden;
+  max-width: 1000px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel .carousel__item,
+.carousel .carousel__item--hidden {
+  display: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel .carousel__item img {
+  width: 100%;
+  max-width: 1000px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel .carousel__item--visible {
+  display: block;
+  animation: fadeVisibility 1.5s;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.carousel .carousel__actions {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  position: absolute;
+  top: 15%;
+  transform: translateY(-50%);
+}
+
+.carousel .carousel__actions button {
+  border-radius: 50px;
+  border: 0;
+  font-weight: bold;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+}
+
+.carousel .carousel__actions button#carousel__button--prev {
+  margin-left: 20px;
+  
+}
+
+.carousel .carousel__actions button#carousel__button--next {
+  margin-right: 20px;
+}
+
+@keyframes fadeVisibility {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+    transform: opacity linear;
+  }
+}
