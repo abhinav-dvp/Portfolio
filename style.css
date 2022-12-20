@@ -8,7 +8,7 @@
     background-color: crimson;
 }
 .navBar{
-    font-family: 'David Libre', serif;
+    font-family: 'Trebuchet MS', serif;
     width: 100%;
     position: fixed;
     padding: 30px 0;
@@ -173,7 +173,7 @@ font-size: 30px;
 
 /*section style, all same*/
 .about, .jobExperiences, .skills, .activities, .contact, footer{
-    font-family:'David Libre', serif ;
+    font-family:'Trebuchet MS', serif ;
 }
 
 section{
@@ -181,7 +181,7 @@ section{
 }
 
 section .title{
-    font-family: 'Abril Fatface', cursive;
+    font-family: 'Trebuchet MS', cursive;
     position: relative;
     margin-bottom: 60px;
     font-size: 40px;
